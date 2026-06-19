@@ -16,6 +16,25 @@ https://ai.studio/apps/34718e49-2419-4689-83ca-fa35e15ac806
 
 ---
 
+## Screenshots
+
+### Home / Suggested Reflections
+![Selah home screen](docs/screenshots/01-home.png)
+
+### New Reflection
+![Selah new reflection input](docs/screenshots/02-new-reflection.png)
+
+### CBT Distortion + Reframe
+![Selah CBT reframe result](docs/screenshots/03-cbt-reframe.png)
+
+### Scripture Comfort + Prayer
+![Selah Scripture and prayer section](docs/screenshots/04-scripture-prayer.png)
+
+### Check-in + Save to Journal
+![Selah check-in and save reflection](docs/screenshots/05-checkin-save.png)
+
+---
+
 ## What the App Does
 
 For each user-submitted thought, Selah generates:
@@ -201,6 +220,7 @@ Working features include:
 - Reflection result display
 - Basic daily usage limit
 - Error handling and retry logic
+- Screenshot documentation for portfolio review
 
 Planned improvements:
 
@@ -212,7 +232,7 @@ Planned improvements:
 - Mobile version refinement
 - Stronger safety language for crisis situations
 - Better deployment documentation
-- Screenshots and demo video
+- Demo video
 
 ---
 
