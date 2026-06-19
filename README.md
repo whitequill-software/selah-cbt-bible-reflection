@@ -94,7 +94,7 @@ For this project, I worked on:
 - **Backend:** Express, Node.js, TypeScript
 - **AI Model:** Google Gemini via `@google/genai`
 - **Styling/UI:** Tailwind CSS, Lucide React icons, Motion
-- **Environment:** `.env.local` / environment variables for API key management
+- **Environment:** Local environment variables for API key management
 
 ---
 
@@ -182,11 +182,18 @@ npm install
 
 ### Environment Setup
 
-Create a `.env.local` file and add:
+This app needs a Gemini API key to generate reflections.
+
+1. Create a file named `.env.local` in the project root.
+2. Add your Gemini API key inside it:
 
 ```env
-GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY=your_api_key_here
 ```
+
+You can also copy `.env.example` as a starting point, then replace the placeholder value with your own key.
+
+> **Important:** Do not commit your real `.env.local` file or API key to GitHub. This repository’s `.gitignore` is already configured to ignore `.env*` files while allowing `.env.example` as a safe template.
 
 ### Start Development Server
 
