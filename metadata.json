@@ -1,0 +1,6 @@
+{
+  "name": "CBT Bible Reflection",
+  "description": "Process anxious or challenging thoughts using Cognitive Behavioral Therapy combined with comforting Biblical wisdom and prayer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
